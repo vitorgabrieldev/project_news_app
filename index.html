@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Website desenvolvido de forma 'bagunçada' para treino de habilidades front_end quanto back_end.">
+        <meta name="author" content="Vitor Gabriel De Oliveira, João Victor Farias Da Silva">
+        <title>Redirect...</title>
+
+    </head>
+    <body>
+        <!-- Components -->
+
+        <!-- --- javascript Drilled --- -->
+        <noscript>
+            <style>
+               
+                /* --- Text alert --- */
+                h1 {
+                    font-family: monospace;
+                    font-size: 2rem;
+                }
+
+                /* --- Element Load --- */
+                .load_element {
+                    width: 3em;
+                    height: 3em;
+                    border: .2rem solid #000;
+                    border-bottom: .2rem solid transparent;
+                    border-radius: 50%;
+
+                    animation: load_circle 3s infinite;
+                }
+
+                /* --- Animation load circle --- */
+                @keyframes load_circle {
+                    0% {
+                        transform: rotate(0);
+                    }
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
+            </style>
+            <h1>--> You need to enable JavaScript to access this site, please enable it in settings...</h1>
+            <br>
+            <div class="load_element"></div>
+        </noscript>
+
+        <script type="text/javascript">
+            // --- Settings redirect ---
+            window.location.href = 'app/public/index.html';
+        </script>
+
+    </body>
+
+</html>
