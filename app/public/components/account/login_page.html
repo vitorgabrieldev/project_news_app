@@ -22,6 +22,10 @@
      <!-- boxIcons -->
      <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
+    <!-- --- Style Sheets --- -->
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./app.css">
+
 </head>
 <body>
     <!-- --- Components --- -->
@@ -32,6 +36,7 @@
             <div class="container_img_profile">
                 <div class="circle_user">
                     <!-- --- Icon --- -->
+                    <i class="bi bi-person-fill"></i>
                 </div>
             </div>
             <form action="" method="post" class="container_login">
@@ -42,8 +47,11 @@
                 <div>
                     <label for="password">Password</label>
                     <input type="password" id="password" name="pass_value" id="campo_pass">
-                    <button type="button" id="showHidden"></button>
+                    <button type="button" id="showHidden">
+                        <i class="bi bi-eye-fill"></i>
+                    </button>
                 </div>
+                <button type="submit">Submit</button>
 
             </form>
             <form action="" method="post" class="container_sing_up"></form>

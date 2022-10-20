@@ -1,0 +1,24 @@
+* {
+    /* --- File: fonts.css --- */
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* --- container_form --- */
+.container_form {
+    background: #2e3137;
+    width: 25rem;
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+    border-radius: 1.7rem;
+    display: block;
+}
